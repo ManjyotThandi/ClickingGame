@@ -41,6 +41,7 @@ class Logic extends Component {
         // If the score is greater than the highscore, that is your new highscore
         //if (this.state.idClicked === id) {
             var arraz = this.state.idClicked;
+            console.log(arraz)
             if(arraz.includes(id)){
             if (this.state.score > this.state.highScore) {
                 this.setState({
@@ -53,7 +54,7 @@ class Logic extends Component {
             else {
                 console.log("LOSE")
                 this.setState({
-                    idClicked: null,
+                    idClicked: [],
                     score: 0
                 })
             }
