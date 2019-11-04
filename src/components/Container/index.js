@@ -49,6 +49,7 @@ class Logic extends Component {
                     score: 0,
                     highScore: this.state.score
                 })
+                this.idsClicked = []
             }
             // else just reset the scores
             else {
@@ -57,6 +58,7 @@ class Logic extends Component {
                     idClicked: [],
                     score: 0
                 })
+                this.idsClicked = []
             }
 
         }
