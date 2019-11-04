@@ -1,0 +1,15 @@
+.Title {
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    padding-top: 70px;
+}
+.Header {
+    padding-bottom: 180px;
+    background-image: url("https://i.pinimg.com/originals/bb/0d/45/bb0d4572eae04ea2b806c6a05b0e2afa.jpg");
+}
+#innerText {
+    text-align: center;
+    color: blanchedalmond;
+    font-size: 50px;
+}
